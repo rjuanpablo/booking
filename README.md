@@ -51,8 +51,8 @@ Follow these steps to set up the project:
 
 6. **Clone the project repository**:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/rjuanpablo/booking.git
+   cd booking
 
 7. **Install project dependencies**:
    ```bash
