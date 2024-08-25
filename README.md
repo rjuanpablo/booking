@@ -86,3 +86,7 @@ symfony serve
 ```
 
 You can now access the application in your web browser at `http://127.0.0.1:8000`.
+
+## API Documentation
+
+For detailed information about the API endpoints, check the [API Endpoints Documentation](ENDPOINTS.md).
