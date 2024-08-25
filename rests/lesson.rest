@@ -1,0 +1,32 @@
+### Get all lessons
+GET http://localhost:8000/lesson
+Accept: application/json
+
+### Create a new lesson
+POST http://localhost:8000/lesson
+Content-Type: application/json
+
+{
+  "classroom_id": 8,
+  "start_time": "09:00:00",
+  "end_time": "11:00:00",
+  "date": "2024-10-28"
+}
+
+### Get a specific lesson
+GET http://localhost:8000/lesson/25
+Accept: application/json
+
+### Update a lesson ###NOT WORKING
+PUT http://localhost:8000/lesson/25
+Content-Type: application/json
+
+{
+  "classroom_id": 1,
+  "start_time": "11:00:00",
+  "end_time": "12:00:00",
+  "date": "2024-08-25",
+}
+
+### Delete a lesson
+DELETE http://localhost:8000/lesson/20

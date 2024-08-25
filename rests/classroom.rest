@@ -1,0 +1,28 @@
+### Get all classrooms
+GET http://localhost:8000/classroom
+Accept: application/json
+
+### Create a new classroom
+POST http://localhost:8000/classroom
+Content-Type: application/json
+
+{
+  "name": "Gym",
+  "capacity": 10
+}
+
+### Get a specific classroom
+GET http://localhost:8000/classroom/10
+Accept: application/json
+
+### Update a classroom
+PUT http://localhost:8000/classroom/1
+Content-Type: application/json
+
+{
+  "name": "Updated Classroom A",
+  "capacity": 35
+}
+
+### Delete a classroom
+DELETE http://localhost:8000/classroom/1

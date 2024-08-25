@@ -1,0 +1,26 @@
+### Get all students
+GET http://localhost:8000/student
+Accept: application/json
+
+### Create a new student
+POST http://localhost:8000/student
+Content-Type: application/json
+
+{
+  "name": "Max"
+}
+
+### Get a specific student
+GET http://localhost:8000/student/11
+Accept: application/json
+
+### Update a student
+PUT http://localhost:8000/student/7
+Content-Type: application/json
+
+{
+  "name": "Mex"
+}
+
+### Delete a student
+DELETE http://localhost:8000/student/11

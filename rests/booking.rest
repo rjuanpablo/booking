@@ -1,0 +1,28 @@
+### Get all bookings
+GET http://localhost:8000/booking
+Accept: application/json
+
+### Create a new booking
+POST http://localhost:8000/booking
+Content-Type: application/json
+
+{
+  "lesson_id": 9,
+  "student_id": 7
+}
+
+### Get a specific booking
+GET http://localhost:8000/booking/1
+Accept: application/json
+
+### Update a booking
+PUT http://localhost:8000/booking/1
+Content-Type: application/json
+
+{
+  "lesson_id": 2,
+  "student_id": 2
+}
+
+### Delete a booking
+DELETE http://localhost:8000/booking/2
