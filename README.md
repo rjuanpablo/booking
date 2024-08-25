@@ -26,7 +26,7 @@ Follow these steps to set up the project:
 2. **Install PHP and required extensions**:
    - On Ubuntu:
      ```bash
-     sudo apt-get install php php-cli php-mbstring php-xml php-curl
+     sudo apt-get install php php-cli php-mbstring php-xml php-curl php-mysql php-zip
      ```
 
 3. **Install cURL**:
