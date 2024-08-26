@@ -77,6 +77,10 @@ Follow these steps to set up the project:
      ```bash
      sudo mysql -u root -p booking < booking_structure.sql
      ```
+   - **Import the database structure and data**:
+     ```bash
+     sudo mysql -u root -p booking < booking_full.sql
+     ```
 
 ## Usage
 
